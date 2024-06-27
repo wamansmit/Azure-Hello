@@ -3,11 +3,11 @@ FROM python:3.9-slim
 
 # Copy files
 
-WORKDIR /app
+WORKDIR /
 
 
 # Copy the requirements file
-COPY . /app/
+COPY . .
 
 
 #COPY app/* /app/
